@@ -2,21 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn import datasets
 import seaborn as sns
-import os as os
-
-from sklearn.ensemble import RandomForestClassifier, IsolationForest
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LinearRegression
-from sklearn.cluster import KMeans, AgglomerativeClustering
-from sklearn.semi_supervised import LabelPropagation
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score, classification_report
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+import os
 
 # Display current working directory
 current_directory = os.getcwd()
