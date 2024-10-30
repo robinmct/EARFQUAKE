@@ -20,12 +20,12 @@ from sklearn.preprocessing import LabelEncoder
 current_directory = os.getcwd()
 print(f"Current working directory: {current_directory}")
 
-df = pd.read_csv("/content/earthquakes.csv")
+df = pd.read_csv("earthquakes.csv")
 df.head()
 
 df
 
-file_path = '/content/earthquakes.csv'
+file_path = 'earthquakes.csv'
 data = pd.read_csv(file_path)
 
 data_info = {
