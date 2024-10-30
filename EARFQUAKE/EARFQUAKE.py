@@ -22,7 +22,7 @@ current_directory = os.getcwd()
 st.write(f"Current working directory: {current_directory}")
 
 # Load the dataset
-file_path = 'earfquake/earthquakes.csv'  # Adjust this path if needed
+file_path = '/mount/src/earfquake/earthquakes.csv'  # Adjust this path if needed
 try:
     df = pd.read_csv(file_path)
 except FileNotFoundError:
