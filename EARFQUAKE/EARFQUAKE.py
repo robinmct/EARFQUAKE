@@ -81,7 +81,7 @@ with st.sidebar:
 def load_data(filepath):
     return pd.read_csv(filepath)
 
-dataset_path = "earthquakes.csv"
+dataset_path = "EARFQUAKE\earthquakes.csv"
 try:
     df = load_data(dataset_path)
 except FileNotFoundError:
